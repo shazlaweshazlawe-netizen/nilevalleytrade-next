@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #004aad;
+  --accent: #f6c500;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: white;
+  color: #0b1720;
+}
+
+/* small helper styles */
+.btn { @apply inline-block px-4 py-2 rounded-md text-white bg-brand hover:bg-brand-light; }
+.container { @apply max-w-6xl mx-auto px-6; }
+.card { @apply bg-white rounded-lg shadow p-6; }
