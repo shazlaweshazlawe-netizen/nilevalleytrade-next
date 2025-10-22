@@ -21,4 +21,3 @@
     "node": "18.x"
   }
 }
-Fix Tailwind and Node version for Vercel
