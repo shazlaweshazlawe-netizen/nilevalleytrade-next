@@ -18,6 +18,7 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
+Upgrade Node.js engine to 22.x for Vercel
